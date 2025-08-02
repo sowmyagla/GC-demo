@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML tables</title>
+    <style>
+      table,th,td {
+        border:1px solid black;
+                border-collapse:collapse;
+        border-style: dashed;
+                              }
+                              
+      th,td{ 
+        text-align:center;
+      }
+      th,td {
+        padding-top:10px;
+        padding-bottom:20px;
+        
+      }
+      table: border-spacing:30px;
+    </style>
+      </head>
+  <body>
+      <table style="width:100%">
+        <colgroup>
+          <col span="2" style="background-color:powderblue">
+        </colgroup>
+        <caption style="caption-side:bottom;text-align:left">Student information table</caption>
+        <tr>
+        <th colspan="2">Roll.No.</th>
+        <th style=width:70%>Name</th>
+        <th>city</th>
+        </tr>
+        <tr style="height:100px">
+          <td>1</td>
+          <td>Sarang</td>
+          <td>Delhi</td>
+          </tr>
+           <tr>
+          <td>2</td>
+          <td>Anshika</td>
+          <td>Bangalore</td>
+          </tr>
+      </table>
+      <table>
+        <tr>
+          <th>roll No</th>
+          <td>xyz</td>
+          </tr>
+          <tr>
+            <th>name</th>
+            <td>zzz</td>
+          </tr>
+        </tr>
+      </table>
+        </body>
+</html>
